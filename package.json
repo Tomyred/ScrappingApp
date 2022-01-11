@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "tsc",
-    "start": "node ."
+    "start": "node .",
+    "build": "tsc --build"
   },
   "author": "Tomás Rojo @Tred",
   "license": "ISC",
