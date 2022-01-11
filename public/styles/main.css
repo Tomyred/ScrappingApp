@@ -1,16 +1,15 @@
 body {
     background-color:  rgb(240, 255, 255);
     font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 15;
 }
 
 
-.tableContainer {
+.container{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-
 
 h1{
     text-align: center;
@@ -47,6 +46,23 @@ tr, th, td{
 img {
     width: 30px;
     margin-right: 5px;
+}
+
+.code{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #151320;
+    color:  rgb(240, 255, 255);
+    margin: 20px 0 0 0;
+}
+
+.code > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7fff00;
+    margin: 5px;
 }
 
 @media screen and (max-width:700px) {
