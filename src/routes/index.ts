@@ -13,12 +13,8 @@ router.get("/fbpositions",async (req,res)=>{
     
 })
 
-router.get('/home', (req, res) => {
+router.get('/', (req, res) => {
     res.render('home');
-});
-
-router.get('/main', (req, res) => {
-    res.render('main');
 });
 
 export default router;
