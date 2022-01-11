@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "sourceMap": true,
+    "lib": [
+      "es6"
+    ],
+    "moduleResolution": "node",
+    "noEmit": false,
+    "strict": false,
+    "strictNullChecks": false,
+    "target": "es6",
+    "resolveJsonModule": true,
+    "rootDir": "./src",
+    "outDir": "dist",
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

@@ -1,0 +1,60 @@
+body {
+    background-color:  rgb(240, 255, 255);
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+.tableContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    text-align: center;
+    background-color: #151320;
+    color: #ffff;
+}
+h2{
+    text-align: center;
+    background-color: #151320;
+    color: #ffff;
+}
+
+table{
+    border: 1px solid black;
+}
+
+tr, th, td{
+    border: 1px solid black;
+}
+
+.bodyTeam{
+    display: flex;
+    align-items: center;
+}
+
+.winner td{
+    background-color:green;
+}
+
+.loser td{
+    background-color:red;
+}
+
+img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width:700px) {
+    .pos, .gf, .gc, .dg, .bodyPos, .bodyGF, .bodyGC, .bodyDG { 
+       display:none;
+       
+    }
+    body{
+        font-size: 12px;
+    }
+}
